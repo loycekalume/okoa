@@ -8,15 +8,15 @@ public class Okoaoption {
 		 int goback=0;
 		 do{
 	        System.out.println("Menu:");
-	        System.out.println("0: Sh20(30 mins, 3 hrs)");
-	        System.out.println("1: Sh10(15 mins, 1 hr)");
-	        System.out.println("2: Sh20(15 mins midnight)");
-	        System.out.println("3: Okoa 50");
-	        System.out.println("4: Okoa 20");
-	        System.out.println("5: Okoa 10");
-	        System.out.println("6: Okoa 5");
-	        System.out.println("7: Okoa 20(900Mb, 1 hr)");
-	        System.out.println("8: Okoa Internet");
+	        System.out.println("1: Sh20(30 mins, 3 hrs)");
+	        System.out.println("2: Sh10(15 mins, 1 hr)");
+	        System.out.println("3: Sh20(15 mins midnight)");
+	        System.out.println("4: Okoa 50");
+	        System.out.println("5: Okoa 20");
+	        System.out.println("6: Okoa 10");
+	        System.out.println("7: Okoa 5");
+	        System.out.println("8: Okoa 20(900Mb, 1 hr)");
+	        System.out.println("9: Okoa Internet");
 	        System.out.println("0: More");
 
 	        System.out.print("Please enter the option number: ");
@@ -57,8 +57,7 @@ public class Okoaoption {
 	                System.out.println("option 12:Lipa Okoa ");
 	                System.out.println("option #:Check Balance ");
 	                System.out.println("option 0:Back ");
-	                System.out.println("Please enter your option number: ");
-	                int optionNumber = scanner.nextInt();
+	            
 
 	                break;
 	            
@@ -67,11 +66,13 @@ public class Okoaoption {
 	                
 
 	        }
+	        System.out.println("Please enter your option number: ");
+            int optionNumber = scanner.nextInt();
 	        
-
-	        scanner.close();
+	        goback++;
+	      
 	    }while(goback>=1);
-		 goback++;
+		// goback++;
 	
 	}}
 		
